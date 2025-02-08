@@ -1,8 +1,8 @@
 @echo off
 
 :: 定义变量，请自行填写使用者名称与密码
-set "DefaultUserName=wanli021212@outlook.com"
-set "DefaultPassword=161122@wanli"
+set "DefaultUserName="
+set "DefaultPassword="
 
 :: 设定 AutoAdminLogon 为 1
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v AutoAdminLogon /t REG_SZ /d 1 /f
